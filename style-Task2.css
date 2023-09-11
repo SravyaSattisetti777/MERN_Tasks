@@ -1,0 +1,129 @@
+body{
+  font-family: 'Arial';
+}
+
+body ul li h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.h1{
+  font-family: 'Arial';
+  text-indent: 12px;
+}
+
+.h2{
+  font-family: 'Arial';
+  text-indent: 125px;
+}
+
+ul.ver{ 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 10px; 
+  width: 200px; 
+  background-color: white; 
+  border: 1px solid black; 
+}
+
+li a{ 
+  display: block; 
+  color: blue; 
+  font-size:20px; 
+  padding: 10px 20px; 
+  text-decoration: none;
+  border-color: white; 
+  font-weight: bold;
+  background-color: lightblue;
+} 
+
+ul:last-child{ 
+  border-bottom: 1px solid black; 
+} 
+
+.active1{ 
+  background-color: orange; 
+  color: white; 
+} 
+
+li a:hover{ 
+  background-color: rgb(216, 67, 97); 
+  color: white; 
+}
+
+
+/* Horizontal Navigation Bar */
+.hor{ 
+  list-style-type: none;
+  margin: 0; 
+  padding: 8px;
+  border: 20px;
+  width: fit-content;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid black;
+  position: relative; 
+}
+
+.hor-li{ 
+  float: left; 
+  border-right: 1px solid blue; 
+}
+
+.hor-li-q{ 
+  float: left; 
+  border-right: 1px solid blue; 
+}
+
+.hor-li a{ 
+  display: block; 
+  color: blue; 
+  font-size:20px; 
+  text-align: center; 
+  padding: 10px 20px; 
+  text-decoration: none;
+  background-color: lightgray; 
+}
+
+.hor-li-q a{ 
+  display: block; 
+  color: white; 
+  font-size: 20px; 
+  text-align: center; 
+  padding: 10px 20px; 
+  text-decoration: none;
+  background-color: gray; 
+}
+
+.hor-li a:hover{ 
+  background-color: orange; 
+  color: white; 
+}
+
+.hor-li-q a:hover{ 
+  background-color: orange; 
+  color: white; 
+}
+
+.horizontal-nav h3 {
+  text-align: justify;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.vertical-nav {
+  flex: 1;
+  margin-left: 220px;
+  margin-top: 5px;
+  margin-right: 2px;
+}
+
+.horizontal-nav {
+  flex: 1;
+  margin-top: 100px;
+}
